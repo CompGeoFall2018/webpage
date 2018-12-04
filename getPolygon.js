@@ -70,7 +70,7 @@ function handleMouseDown(e){
   coordinates.push({x:mouseX,y:mouseY});
 
   context.clearRect(0,0,cw,ch);
-  context.strokeStyle = "#00DDDD";
+  context.strokeStyle = "#0000DD";
   drawPolygon(coordinates);
 }
 
